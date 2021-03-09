@@ -22,7 +22,7 @@ try:
     gpx_out = ET.Element('gpx')
 
     gpx_out.set("version", "1.1")
-    gpx_out.set("creator", "http://XXXXX")
+    gpx_out.set("creator", "https://github.com/MBunel/json2gpx")
 
     # Metadonnées
     metadata = ET.SubElement(gpx_out, 'metadata')
